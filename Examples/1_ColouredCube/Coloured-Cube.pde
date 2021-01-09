@@ -47,8 +47,15 @@ void initShaders()
   myShader.set("myFloat", 0.5);       //send some data to shader
 }
 
+void updateShader()
+{
+  myShader.set("myFloat", mouseX / (float)width);
+}
+
 void draw()
 {
+  updateShader();
+  
   background(0, 0, 0.8);  
   
   //directionalLight(126, 126, 126, 0, 0, -1);
