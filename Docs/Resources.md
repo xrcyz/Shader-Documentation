@@ -6,3 +6,4 @@
 - [Cameras in Processing](https://behreajj.medium.com/cameras-in-processing-2d-and-3d-dc45fd03662c)
 - Pocessing-Shader-Examples [blog post](https://atduskgreg.github.io/Processing-Shader-Examples/) and [code](https://github.com/atduskgreg/Processing-Shader-Examples)
 - [reaction_diffusion](https://github.com/samuelebonaffino/reaction_diffusion)
+- [https://github.com/cansik/processing-bloom-filter](https://github.com/cansik/processing-bloom-filter)
