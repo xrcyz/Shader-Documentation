@@ -1,5 +1,6 @@
-PShader myShader;
+PShader myShader; 
 
+//8 vertices of a cube (centered on 0, edge length 2)
 float[][] cubeVerts = new float[][]
 {
   { -1,  1,  1 }, //A-0
@@ -12,6 +13,7 @@ float[][] cubeVerts = new float[][]
   { -1, -1, -1 }  //H-7
 };
 
+//6 faces of a cube, each face is 4 verts (indexed to cubeVerts)
 int[][] quadVerts = new int[][]
 {
   { 0, 1, 2, 3}, //ABCD
@@ -22,18 +24,19 @@ int[][] quadVerts = new int[][]
   { 7, 6, 2, 3}  //HGCD
 };
 
+//rotations
 float rx = PI/4;
 float ry = PI/4;
 float rz = PI/4;
 
 void settings()
 {
-    size(400, 400, P3D);
+  size(400, 400, P3D);
 }
 
 void setup()
 {
-  colorMode(HSB, 360, 1, 1, 1);  
+  colorMode(HSB, 360, 1, 1, 1); 
   initShaders();
   noStroke();
 }
@@ -65,13 +68,13 @@ void draw()
     scale(90);
     
     shader(myShader); //apply shader to mesh
-    beginShape(QUADS);
-    for(int i = 0; i < quadVerts.length; i++)
+    beginShape(QUADS); //groups every 4 points into a quad
+    for(int i = 0; i < quadVerts.length; i++) //for every quad
     {
-      for(int j = 0; j < quadVerts[i].length; j++)
+      for(int j = 0; j < quadVerts[i].length; j++) //for every vertex in quad
       {
         int k = quadVerts[i][j];
-        vertex(cubeVerts[k][0], cubeVerts[k][1], cubeVerts[k][2] );
+        vertex(cubeVerts[k][0], cubeVerts[k][1], cubeVerts[k][2] ); //add vertex
       }
     }
     endShape();
