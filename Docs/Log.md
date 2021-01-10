@@ -46,7 +46,7 @@ void main()
 }
 ```
 
-Where user-defined [outputs](https://www.khronos.org/opengl/wiki/Fragment_Shader#Outputs) can be floats, ints, vectors, and arrays. These represent a series of colors. I'm not clear on why we can output multiple colours, but I guess we'll find out as we go. 
+Instead we can define our own [outputs](https://www.khronos.org/opengl/wiki/Fragment_Shader#Outputs), which can be floats, ints, vectors, or arrays. These represent a series of colors. I'm not clear on why we can output multiple colours, but I guess we'll find out as we go. 
 
 To do:
 - [Built-in variables](https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)).
