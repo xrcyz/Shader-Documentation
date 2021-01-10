@@ -28,16 +28,15 @@ void main()
 |-------------|-------------|
 | `#ifdef GL_ES`            | Preprocessor macro. |
 | `precision highp float;`  | Default floating point precision |
-| `uniform`                 | Read only variables that are uniform across all threads.  |
+| `uniform`                 | Read only variables that are uniform across all threads/vertices/pixels.  |
 | `main()`                  | The function that does the work? |
 | `gl_FragColor`            | Reserved global variable for output color*.  |
 
 From [learnopengl.com](https://learnopengl.com/Getting-started/Hello-Triangle), 
 > The fragment shader only requires one output variable and that is a vector of size 4 that defines the final color output.
 
-OK so apparently `gl_FragColor` is [deprecated](https://stackoverflow.com/questions/51459596/using-gl-fragcolor-vs-out-vec4-color), which is why I can't find it in the [docs](https://www.khronos.org/registry/OpenGL-Refpages/gl4/). 
+...ok so apparently `gl_FragColor` is [deprecated](https://stackoverflow.com/questions/51459596/using-gl-fragcolor-vs-out-vec4-color), which is why I can't find it in the [docs](https://www.khronos.org/registry/OpenGL-Refpages/gl4/). 
 
-According to [learnopengl.com](https://learnopengl.com/Getting-started/Hello-Triangle) we should be doing this:
 ```
 out vec4 FragColor;
 
@@ -49,7 +48,7 @@ void main()
 
 Where user-defined [outputs](https://www.khronos.org/opengl/wiki/Fragment_Shader#Outputs) can be floats, ints, vectors, and arrays. These represent a series of colors. I'm not clear on why we can output multiple colours, but I guess we'll find out as we go. 
 
-
-
-These inputs are called uniform and come in most of the supported types: float, vec2, vec3, vec4, mat2, mat3, mat4, sampler2D and samplerCube. 
-gl_Position, gl_FragCoord, gl_ModelViewProjectionMatrix 
+To do:
+- [Built-in variables](https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)).
+- [Data Types](https://www.khronos.org/opengl/wiki/Data_Type_(GLSL))
+- [Vertex Buffer Objects](https://stackoverflow.com/a/65372213)
