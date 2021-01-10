@@ -29,7 +29,7 @@ void main()
 | `#ifdef GL_ES`            | Preprocessor macro. |
 | `precision highp float;`  | Default floating point precision |
 | `uniform`                 | Read only variables that are written from outside the shader.  |
-| `main()`                  | Entry point into the shader. |
+| `main()`                  | Entry point into the shader, called once per pixel. |
 | `gl_FragColor`            | Reserved global variable for output color*.  |
 
 Ok so apparently `gl_FragColor` is [deprecated](https://stackoverflow.com/questions/51459596/using-gl-fragcolor-vs-out-vec4-color), which would explain why I can't find it in the [docs](https://www.khronos.org/registry/OpenGL-Refpages/gl4/). Instead we define our own [outputs](https://www.khronos.org/opengl/wiki/Fragment_Shader#Outputs). 
@@ -48,3 +48,4 @@ To do:
 - [Built-in variables](https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)).
 - [Data Types](https://www.khronos.org/opengl/wiki/Data_Type_(GLSL))
 - [Vertex Buffer Objects](https://stackoverflow.com/a/65372213)
+- Attribute variables contain an attribute for a single vertex, they only appear in vertex shaders.
