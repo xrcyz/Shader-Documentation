@@ -3,4 +3,4 @@
 I'm trying to learn how shaders work. 
 
 - [Log](Docs/Log.md)
-- [Reading material](Docs/Resources.md)
+- [Links](Docs/Resources.md)
