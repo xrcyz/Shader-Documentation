@@ -52,11 +52,9 @@ To do:
 
 # Example 2
 
-A vertex shader tells the rest of the pipeline where on screen each vertex of a mesh should be positioned<sup>[*](https://www.amazon.com/Practical-Shader-Development-Fragment-Developers/dp/1484244567)</sup>. It can also output user-defined values for use in the fragment shader.
+A vertex shader tells the rest of the pipeline where on screen each vertex of a mesh should be positioned. It can also output user-defined inputs to the fragment shader.
 
-Shaders communicate with fixed-function OpenGL pipeline stages and other shader executables through built-in input and output variables. Redeclare matching subsets of these variables and blocks to establish matching interfaces when using multiple programs<sup>[*](https://www.khronos.org/files/opengl42-quick-reference-card.pdf)</sup>.
-
-When rendering, OpenGL pulls vertex data from arrays stored in buffer objects. The line `layout(location = 0) in vec3 position;` reads the data at the attribute index `layout = 0`, casts it to a `vec3`, and gives it the name `position`<sup>[*](https://nicolbolas.github.io/oldtut/Basics/Tut01%20Following%20the%20Data.html)</sup>. This index gets set somewhere CPU-side with `glVertexAttribPointer()`<sup>[*](https://github.com/processing/processing/tree/master/core/src/processing/opengl)</sup>.
+When rendering, OpenGL pulls vertex data from arrays stored in buffer objects. The line `layout(location = 0) in vec3 position;` reads the data at the attribute index `location = 0`, casts it to a `vec3`, and gives it the name `position`. This index gets set [somewhere](https://github.com/processing/processing/tree/master/core/src/processing/opengl) CPU-side with `glVertexAttribPointer().
 
 ```
 //use OpenGL version 4.1
@@ -75,5 +73,6 @@ void main()
 
 
 Links: 
+- [Practical Shader Development](https://www.amazon.com/Practical-Shader-Development-Fragment-Developers/dp/1484244567)
 - [https://www.khronos.org/files/opengl42-quick-reference-card.pdf](https://www.khronos.org/files/opengl42-quick-reference-card.pdf)
 - [https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html](https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html)
