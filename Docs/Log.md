@@ -54,7 +54,7 @@ To do:
 
 A vertex shader tells the rest of the pipeline where on screen each vertex of a mesh should be positioned. It can also output user-defined inputs to the fragment shader.
 
-When rendering, OpenGL pulls vertex data from arrays stored in buffer objects. The line `layout(location = 0) in vec3 position;` fetches data from the Vertex Buffer Object at index zero from the Vertex Array Object (array of VBOs), casts it to a `vec3`, and gives it the name `position`. This index gets set [somewhere](https://github.com/processing/processing/tree/master/core/src/processing/opengl) CPU-side with `glVertexAttribPointer()`.
+When rendering, OpenGL pulls vertex data from arrays stored in buffer objects. The line `layout(location = 0) in vec3 position` calls out to the Vertex Array Object (VAO), gets the Vertex Buffer Object (VBO) at index zero, casts the current vertex to a `vec3`, and gives it the name `position`. This index gets set [somewhere](https://github.com/processing/processing/tree/master/core/src/processing/opengl) CPU-side with `glVertexAttribPointer()`.
 
 ```
 //use OpenGL version 4.1
