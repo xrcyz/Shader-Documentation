@@ -1,4 +1,4 @@
-# [Example 1](Examples/1_ColouredCube/Coloured-Cube.pde)
+# [Example 1](Examples/1_ColouredCube/1_ColouredCube.pde)
 
 Processing has a PShader object. This class encapsulates a GLSL shader program, including a vertex and a fragment shader. 
 
@@ -50,7 +50,7 @@ To do:
 - [Vertex Buffer Objects](https://stackoverflow.com/a/65372213)
 - Attribute variables contain an attribute for a single vertex, they only appear in vertex shaders.
 
-# Example 2
+# [Example 2](Examples/2_ColourSpace/2_ColourSpace.pde)
 
 A vertex shader tells the rest of the pipeline where on screen each vertex of a mesh should be positioned. It can also output user-defined inputs to the fragment shader.
 
@@ -94,7 +94,6 @@ void main() {
   vertLightDir = -lightNormal;
 }
 ```
-
 
 
 Links: 
