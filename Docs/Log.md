@@ -56,7 +56,7 @@ A vertex shader tells the rest of the pipeline where on screen each vertex of a 
 
 When rendering, OpenGL pulls vertex data from arrays stored in buffer objects. The line `layout(location = 0) in vec3 position` appears to be equivalent to:
 ```
-Vector3 position =  (Vector3)(((VertexBufferObject)VertexArrayObject[0])[currentVertex]); //cast whatever comes back to whatever vector type you want
+Vector3 position =  (Vector3)(((VertexBufferObject)VertexArrayObject[0])[currentVertex]); 
 ```
 This attribute index gets set [somewhere](https://github.com/processing/processing/tree/master/core/src/processing/opengl) CPU-side with `glVertexAttribPointer()`.
 
