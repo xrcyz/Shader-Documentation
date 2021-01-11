@@ -32,6 +32,7 @@ void draw()
   updateShaders();
   
   //shader(myShader);
-  rect(0, 0, width, height);
+  float border = 10;
+  rect(border, border, width - 2*border, height - 2*border);
   //resetShader(TRIANGLES);
 }
