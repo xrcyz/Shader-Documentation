@@ -15,7 +15,7 @@ void setup()
 
 void initShaders()
 {
-  myShader = loadShader("frag.glsl", "vert.glsl"); //initialise shaders
+  myShader = loadShader("frag.glsl"); //initialise shaders
   myShader.set("dimensions", (float)width, (float)height); //must cast to float or fail
   shader(myShader);
 }
