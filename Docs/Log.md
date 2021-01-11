@@ -72,11 +72,34 @@ void main()
     gl_Position = vec4(position, 1.0);
 }
 ```
+That said, this is the only [sample code](https://behreajj.medium.com/cameras-in-processing-2d-and-3d-dc45fd03662c) I could find that did anything useful for me:
 
+```
+uniform mat4 transform;
+uniform mat3 normalMatrix;
+uniform vec3 lightNormal;
+
+attribute vec4 position;
+attribute vec4 color;
+attribute vec3 normal;
+
+varying vec4 vertColor;
+varying vec3 vertNormal;
+varying vec3 vertLightDir;
+
+void main() {
+  gl_Position = transform * position;
+  vertColor = color;
+  vertNormal = normalize(normalMatrix * normal);
+  vertLightDir = -lightNormal;
+}
+```
 
 
 
 Links: 
 - [Practical Shader Development](https://www.amazon.com/Practical-Shader-Development-Fragment-Developers/dp/1484244567)
+- [https://www.shadertoy.com](https://www.shadertoy.com)
+- [http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/)
 - [https://www.khronos.org/files/opengl42-quick-reference-card.pdf](https://www.khronos.org/files/opengl42-quick-reference-card.pdf)
 - [https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html](https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html)
