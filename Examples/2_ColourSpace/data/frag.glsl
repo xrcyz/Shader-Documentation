@@ -33,7 +33,6 @@ void main()
 
   vec3 rgb = hsb2rgb(vec3(hue, sat, bright));
 
-
   gl_FragColor = vec4(rgb, 1.0);
 }
 
