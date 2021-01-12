@@ -12,3 +12,7 @@
 - Pocessing-Shader-Examples [blog post](https://atduskgreg.github.io/Processing-Shader-Examples/) and [code](https://github.com/atduskgreg/Processing-Shader-Examples)
 - [https://github.com/samuelebonaffino/reaction_diffusion](https://github.com/samuelebonaffino/reaction_diffusion)
 - [https://github.com/cansik/processing-bloom-filter](https://github.com/cansik/processing-bloom-filter)
+- [https://github.com/genekogan/Processing-Shader-Examples](https://github.com/genekogan/Processing-Shader-Examples)
+- [https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md](https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md)
+- [https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/](https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/)
+
