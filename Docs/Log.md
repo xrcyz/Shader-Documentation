@@ -102,3 +102,18 @@ Links:
 - [http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/)
 - [https://www.khronos.org/files/opengl42-quick-reference-card.pdf](https://www.khronos.org/files/opengl42-quick-reference-card.pdf)
 - [https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html](https://nicolbolas.github.io/oldtut/Basics/Intro%20What%20is%20OpenGL.html)
+
+# Example 3
+
+Hey the Processing error messages are useful!
+
+```
+RuntimeException: Cannot compile fragment shader:
+ERROR: 0:87: '=' :  cannot convert from 'const highp float' to 'highp int'  //assigned a float to an int on line 87
+ERROR: 0:89: '=' :  cannot convert from 'const highp float' to 'highp int'
+ERROR: 0:98: 'bandSum' : undeclared identifier                              //undeclared variables on line 98
+```
+
+Links:
+- [official example shader repo](https://github.com/processing/processing-docs/tree/master/content/examples/Topics/Shaders)
+- [built in shader variables in processing](https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/)
