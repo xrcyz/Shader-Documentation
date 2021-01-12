@@ -1,4 +1,7 @@
-PShader myShader; 
+PShader shadeSatBright; 
+PShader shadeHue;
+
+float userSelectedHue = 0;
 
 void settings()
 {
@@ -10,19 +13,20 @@ void setup()
   colorMode(HSB, 360, 1, 1, 1); 
   initShaders();
   noStroke();
-  
 }
 
 void initShaders()
 {
-  myShader = loadShader("frag.glsl"); //initialise shaders
-  myShader.set("dimensions", (float)width, (float)height); //must cast to float or fail
-  shader(myShader);
+  shadeSatBright = loadShader("frag.glsl"); //initialise shaders
+  shadeSatBright.set("dimensions", (float)width, (float)height); //cast to float or fail
+  
+  shadeHue = loadShader("frag2.glsl"); 
+  shadeHue.set("dimensions", (float)width, (float)height);
 }
 
 void updateShaders()
 {
-  myShader.set("mousePos", (float)mouseX, (float)mouseY);  
+  shadeSatBright.set("userHueSelection", userSelectedHue / (float)height);
 }
 
 void draw()
@@ -31,8 +35,24 @@ void draw()
   
   updateShaders();
   
-  //shader(myShader);
-  float border = 10;
+  shader(shadeSatBright);
+  float border = 0;
   rect(border, border, width - 2*border, height - 2*border);
-  //resetShader(TRIANGLES);
+  
+  shader(shadeHue);
+  float rainbowWidth = 10;
+  rect(width - rainbowWidth, border, rainbowWidth, height - 2 * border);
+  
+  resetShader(TRIANGLES);
+   
+  fill(0, 0, 0.2);
+  ellipse(width - rainbowWidth/2, userSelectedHue, 20, 20);
+  
+  fill(get(mouseX, mouseY));
+  rect(0, height - 10, width - rainbowWidth, 10); 
+}
+
+void mouseClicked()
+{
+  userSelectedHue = mouseY;
 }
