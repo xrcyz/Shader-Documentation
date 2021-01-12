@@ -15,4 +15,5 @@
 - [https://github.com/genekogan/Processing-Shader-Examples](https://github.com/genekogan/Processing-Shader-Examples)
 - [https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md](https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md)
 - [https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/](https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/)
+- [https://github.com/jasonwebb/reaction-diffusion-playground/blob/master/glsl/simulationFrag.glsl](https://github.com/jasonwebb/reaction-diffusion-playground/blob/master/glsl/simulationFrag.glsl)
 
