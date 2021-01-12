@@ -3,11 +3,8 @@ precision highp float;
 precision highp int;
 #endif
 
-#define PI 3.14159265359
-#define TWO_PI 6.28318530718
-
 uniform vec2 dimensions;
-uniform vec2 mousePos;
+uniform float userHueSelection;
 
 /*
   [Iñigo Quiles](https://www.shadertoy.com/view/MsS3Wc)
@@ -25,14 +22,11 @@ vec3 hsb2rgb( in vec3 c ){
 void main()
 {
   vec2 pos = gl_FragCoord.xy / dimensions;
-  vec2 mouse = mousePos / dimensions;
 
-  float hue = mouse.x;
+  float hue = 1 - userHueSelection; //processing has inverted y direction to opengl
   float sat = pos.x;
   float bright = pos.y;
 
   vec3 rgb = hsb2rgb(vec3(hue, sat, bright));
-
   gl_FragColor = vec4(rgb, 1.0);
 }
-
