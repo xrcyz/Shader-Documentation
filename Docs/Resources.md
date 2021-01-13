@@ -14,10 +14,13 @@
 - [https://github.com/cansik/processing-bloom-filter](https://github.com/cansik/processing-bloom-filter)
 - [https://github.com/genekogan/Processing-Shader-Examples](https://github.com/genekogan/Processing-Shader-Examples)
 - Pocessing-Shader-Examples [blog post](https://atduskgreg.github.io/Processing-Shader-Examples/) and [code](https://github.com/atduskgreg/Processing-Shader-Examples)
+- [https://github.com/Apress/practical-shader-dev](https://github.com/Apress/practical-shader-dev)
 
 # Tutorials
 - [https://processing.org/tutorials/pshader/](https://processing.org/tutorials/pshader/)
 - [https://thebookofshaders.com/03](https://thebookofshaders.com/03)
-- [https://learnopengl.com/Getting-started/Hello-Triangle](https://learnopengl.com/Getting-started/Hello-Triangle)
+- [https://learnopengl.com/Getting-started/Shaders](https://learnopengl.com/Getting-started/Shaders)
+- [http://www.opengl-tutorial.org/beginners-tutorials/](http://www.opengl-tutorial.org/beginners-tutorials/)
 - [https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/index.php](https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/index.php)
 - [https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md](https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md)
+- [https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html](https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html)
