@@ -1,6 +1,9 @@
+# Inbox
+- [https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback](https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback)
+- [https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space](https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space)
+
 # Reference Material
 
-- [https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space](https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space)
 - [https://www.khronos.org/registry/OpenGL-Refpages/gl4/](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 - [https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)#Vertex_shader_outputs](https://www.khronos.org/opengl/wiki/Built-in_Variable_(GLSL)#Vertex_shader_outputs)
 - [https://www.uni-weimar.de/kunst-und-gestaltung/wiki/images/XinWang-How_to_make_a_simple_3D_in_processing.pdf](https://www.uni-weimar.de/kunst-und-gestaltung/wiki/images/XinWang-How_to_make_a_simple_3D_in_processing.pdf)
