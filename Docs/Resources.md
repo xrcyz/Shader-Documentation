@@ -19,6 +19,8 @@
 - [https://github.com/genekogan/Processing-Shader-Examples](https://github.com/genekogan/Processing-Shader-Examples)
 - Pocessing-Shader-Examples [blog post](https://atduskgreg.github.io/Processing-Shader-Examples/) and [code](https://github.com/atduskgreg/Processing-Shader-Examples)
 - [https://github.com/Apress/practical-shader-dev](https://github.com/Apress/practical-shader-dev)
+- [https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl](https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl)
+- [https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl](https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl)
 
 # Tutorials
 - [https://processing.org/tutorials/pshader/](https://processing.org/tutorials/pshader/)
@@ -28,3 +30,7 @@
 - [https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/index.php](https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/index.php)
 - [https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md](https://github.com/processing/processing-pi-website/blob/master/content/tutorial/camera/index.md)
 - [https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html](https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html)
+
+# ShaderToy
+- [noise in a 3D scene](https://www.shadertoy.com/view/XttSz2)
+- [isolines of a 2D field function](https://www.shadertoy.com/view/WtfGDX)
