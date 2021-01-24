@@ -1,6 +1,8 @@
 # Inbox
 - [https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback](https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback)
 - [https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space](https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space)
+- [https://gist.github.com/thejmazz/4393abb18267c731e966f9370b7eaa31](https://gist.github.com/thejmazz/4393abb18267c731e966f9370b7eaa31)
+- [https://github.com/stackgl/shader-school](https://github.com/stackgl/shader-school)
 
 # Reference Material
 
@@ -9,6 +11,9 @@
 - [https://www.uni-weimar.de/kunst-und-gestaltung/wiki/images/XinWang-How_to_make_a_simple_3D_in_processing.pdf](https://www.uni-weimar.de/kunst-und-gestaltung/wiki/images/XinWang-How_to_make_a_simple_3D_in_processing.pdf)
 - [https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/](https://codeanticode.wordpress.com/2014/05/08/shader_api_in_processing_2/)
 - [Coding Train](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_)
+- [Introduction to Computer Graphics (2018)](http://math.hws.edu/graphicsbook/index.html)
+- [Learn WebGL](http://learnwebgl.brown37.net/index.html)
+- [OpenGL programming guide (2012)](http://www.glprogramming.com/red/)
 
 # Code Examples
 - [https://github.com/jasonwebb/reaction-diffusion-playground/blob/master/glsl/simulationFrag.glsl](https://github.com/jasonwebb/reaction-diffusion-playground/blob/master/glsl/simulationFrag.glsl)
@@ -21,6 +26,7 @@
 - [https://github.com/Apress/practical-shader-dev](https://github.com/Apress/practical-shader-dev)
 - [https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl](https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl)
 - [https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl](https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl)
+- [https://github.com/Unarelith/OpenMiner](https://github.com/Unarelith/OpenMiner)
 
 # Tutorials
 - [https://processing.org/tutorials/pshader/](https://processing.org/tutorials/pshader/)
