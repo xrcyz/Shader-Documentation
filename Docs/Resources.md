@@ -26,7 +26,6 @@
 - [https://github.com/Apress/practical-shader-dev](https://github.com/Apress/practical-shader-dev)
 - [https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl](https://github.com/BrianSharpe/GPU-Noise-Lib/blob/master/gpu_noise_lib.glsl)
 - [https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl](https://github.com/ashima/webgl-noise/blob/master/src/cellular3D.glsl)
-- [https://github.com/Unarelith/OpenMiner](https://github.com/Unarelith/OpenMiner)
 
 # Tutorials
 - [https://processing.org/tutorials/pshader/](https://processing.org/tutorials/pshader/)
@@ -40,3 +39,7 @@
 # ShaderToy
 - [noise in a 3D scene](https://www.shadertoy.com/view/XttSz2)
 - [isolines of a 2D field function](https://www.shadertoy.com/view/WtfGDX)
+
+# Minecraft
+- [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
+- [https://github.com/Unarelith/OpenMiner](https://github.com/Unarelith/OpenMiner)
