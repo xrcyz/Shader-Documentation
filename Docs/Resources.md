@@ -39,6 +39,9 @@
 # ShaderToy
 - [noise in a 3D scene](https://www.shadertoy.com/view/XttSz2)
 - [isolines of a 2D field function](https://www.shadertoy.com/view/WtfGDX)
+- [debugging](https://www.shadertoy.com/view/lt3GRj)
+- [fruit loops](https://glslfan.com/?channel=-LghIxTiC_IQy-Xr5D7S&viewer=true)
+- [voronoi](https://www.shadertoy.com/view/ltVcWy)
 
 # Minecraft
 - [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
