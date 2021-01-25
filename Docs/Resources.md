@@ -38,9 +38,10 @@
 - [https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html](https://paroj.github.io/gltut/Basics/Tut02%20Vertex%20Attributes.html)
 
 # ShaderToy
+- [intro geometry](https://www.shadertoy.com/view/tsf3WB)
 - [noise in a 3D scene](https://www.shadertoy.com/view/XttSz2)
 - [isolines of a 2D field function](https://www.shadertoy.com/view/WtfGDX)
-- [debugging](https://www.shadertoy.com/view/lt3GRj) and [text on screen](https://www.shadertoy.com/view/3sSfWy)
+- [debugging](https://www.shadertoy.com/view/lt3GRj), [text](https://www.shadertoy.com/view/XdKSRV), [text](https://www.shadertoy.com/view/3sSfWy)
 - [fruit loops](https://glslfan.com/?channel=-LghIxTiC_IQy-Xr5D7S&viewer=true)
 - [voronoi](https://www.shadertoy.com/view/ltVcWy)
 - [vector field](https://www.shadertoy.com/view/4s23DG)
@@ -51,6 +52,8 @@
 - [enzymes](https://www.shadertoy.com/view/WlS3WD)
 - [slime mold](https://www.shadertoy.com/view/WtBcDG), [slime mold](https://www.shadertoy.com/view/3tjfzh), [physarum](https://www.shadertoy.com/view/tlKGDh), and [physarum](https://www.shadertoy.com/view/wtKGW1) and [a blog post](https://michaelmoroz.github.io/Reintegration-Tracking/)
 - [flocking](https://www.shadertoy.com/view/WdSfzD)
+- [voxel effect](https://www.shadertoy.com/view/4dfGz4), [voxel moon](https://www.shadertoy.com/view/tdlSR8), [voxel saturn](https://www.shadertoy.com/view/ldjXz1), [voxels](https://www.shadertoy.com/view/4tlfDn), and a [writeup](https://www.iquilezles.org/www/articles/voxellines/voxellines.htm)
+- [ambient occlusion](https://www.shadertoy.com/view/XlXyD4)
 
 # Minecraft
 - [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
