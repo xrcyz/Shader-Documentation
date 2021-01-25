@@ -1,4 +1,5 @@
 # Inbox
+- "As there is no moveable program counter in shader code, both sides of the if/else are evaluated, and one is ignored"
 - [https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback](https://forum.processing.org/two/discussion/22508/chaining-shaders-and-feedback)
 - [https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space](https://github.com/processing/processing/wiki/Advanced-OpenGL#vertex-coordinates-are-in-model-space)
 - [https://gist.github.com/thejmazz/4393abb18267c731e966f9370b7eaa31](https://gist.github.com/thejmazz/4393abb18267c731e966f9370b7eaa31)
@@ -45,6 +46,11 @@
 - [vector field](https://www.shadertoy.com/view/4s23DG)
 - [star field](https://www.shadertoy.com/view/MdlXWr)
 - [3D camera](https://www.shadertoy.com/view/wdffWj)
+- [biological particles](https://www.shadertoy.com/view/3tBGzh) 
+- [reaction diffusion](https://www.shadertoy.com/view/wdfXWf) and [more reaction diffusion](https://www.shadertoy.com/view/wdyXzd) and [notes!](https://wyattflanders.com/MeAndMyNeighborhood.pdf)
+- [enzymes](https://www.shadertoy.com/view/WlS3WD)
+- [slime mold](https://www.shadertoy.com/view/WtBcDG), [slime mold](https://www.shadertoy.com/view/3tjfzh), [physarum](https://www.shadertoy.com/view/tlKGDh), and [physarum](https://www.shadertoy.com/view/wtKGW1) and [a blog post](https://michaelmoroz.github.io/Reintegration-Tracking/)
+- [flocking](https://www.shadertoy.com/view/WdSfzD)
 
 # Minecraft
 - [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
