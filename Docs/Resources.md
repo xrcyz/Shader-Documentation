@@ -40,7 +40,7 @@
 # ShaderToy
 - [noise in a 3D scene](https://www.shadertoy.com/view/XttSz2)
 - [isolines of a 2D field function](https://www.shadertoy.com/view/WtfGDX)
-- [debugging](https://www.shadertoy.com/view/lt3GRj)
+- [debugging](https://www.shadertoy.com/view/lt3GRj) and [text on screen](https://www.shadertoy.com/view/3sSfWy)
 - [fruit loops](https://glslfan.com/?channel=-LghIxTiC_IQy-Xr5D7S&viewer=true)
 - [voronoi](https://www.shadertoy.com/view/ltVcWy)
 - [vector field](https://www.shadertoy.com/view/4s23DG)
