@@ -42,6 +42,9 @@
 - [debugging](https://www.shadertoy.com/view/lt3GRj)
 - [fruit loops](https://glslfan.com/?channel=-LghIxTiC_IQy-Xr5D7S&viewer=true)
 - [voronoi](https://www.shadertoy.com/view/ltVcWy)
+- [vector field](https://www.shadertoy.com/view/4s23DG)
+- [star field](https://www.shadertoy.com/view/MdlXWr)
+- [3D camera](https://www.shadertoy.com/view/wdffWj)
 
 # Minecraft
 - [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
