@@ -54,6 +54,7 @@
 - [flocking](https://www.shadertoy.com/view/WdSfzD)
 - [voxel effect](https://www.shadertoy.com/view/4dfGz4), [voxel moon](https://www.shadertoy.com/view/tdlSR8), [voxel saturn](https://www.shadertoy.com/view/ldjXz1), [voxels](https://www.shadertoy.com/view/4tlfDn), and a [writeup](https://www.iquilezles.org/www/articles/voxellines/voxellines.htm)
 - [ambient occlusion](https://www.shadertoy.com/view/XlXyD4)
+- [cppns](https://github.com/wxs/cppn-to-glsl)
 
 # Minecraft
 - [https://github.com/Clapeysron/Mycraft](https://github.com/Clapeysron/Mycraft)
